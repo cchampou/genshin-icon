@@ -1,5 +1,7 @@
 # Genshi Icons
 
+`genshi-icons` is a set of React Components containing Genshin icons in SVG.
+ 
 ![Example](https://github.com/cchampou/genshin-icon/blob/master/example.png)
 
 ## How to install
