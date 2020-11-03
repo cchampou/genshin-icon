@@ -6,4 +6,5 @@ steps:
   - name: lint
     image: node
     commands:
+    - yarn
     - yarn lint
