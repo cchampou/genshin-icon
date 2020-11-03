@@ -1,6 +1,6 @@
 {
   "name": "genshin-icon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "repository": "git@github.com:cchampou/genshin-icon.git",
   "author": "cchampou <clement@champouillon.com>",
