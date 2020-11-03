@@ -9,6 +9,7 @@
   "author": "cchampou <clement@champouillon.com>",
   "license": "MIT",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^17.0.1"
   },
   "devDependencies": {

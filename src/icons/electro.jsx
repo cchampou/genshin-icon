@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default ({ size, color, ...props }) => (
+const Electro = ({ size, color, ...props }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 41.352 41.578" {...props}>
     <defs>
       <clipPath id="clip-path">
@@ -14,3 +15,15 @@ export default ({ size, color, ...props }) => (
     </g>
   </svg>
 );
+
+Electro.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.string || PropTypes.number,
+};
+
+Electro.defaultProps = {
+  color: 'purple',
+  size: 64,
+};
+
+export default Electro;
