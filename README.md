@@ -27,7 +27,7 @@ const App = () => {
       <Anemo />
       {/* You can specify color and size (in px) */}
       <Anemo size="100" color="purple" />
-      {/* You can also specify size in % */}
+      {/* You can also specify size in % (for the width) */}
       <Anemo size="30%" color="purple" />
     </div>
   );
