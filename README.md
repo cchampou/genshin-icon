@@ -13,7 +13,7 @@ npm install genshi-icons
 ```
 
 ## How to use
-```js
+```jsx
 import { Anemo } from 'genshi-icons';
 
 const App = () => {
