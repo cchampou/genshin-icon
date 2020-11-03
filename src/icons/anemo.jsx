@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default ({ size, color }) => (
-  <svg id="Groupe_15" data-name="Groupe 15" xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 49.627 48.544">
+export default ({ size, color, className }) => (
+  <svg id="Groupe_15" data-name="Groupe 15" xmlns="http://www.w3.org/2000/svg" width={size} height={size} className={className} viewBox="0 0 49.627 48.544">
     <defs>
       <clipPath id="clip-path">
         <rect id="Rectangle_35" data-name="Rectangle 35" width="49.627" height="48.544" fill={color}/>
