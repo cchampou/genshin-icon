@@ -1,5 +1,7 @@
 # Genshi Icons
 
+[![Build Status](https://ci.cchampou.me/api/badges/cchampou/genshin-icon/status.svg)](https://ci.cchampou.me/cchampou/genshin-icon)
+
 `genshi-icons` is a set of React Components containing Genshin icons in SVG.
  
 ![Example](https://github.com/cchampou/genshin-icon/blob/master/example.png)
