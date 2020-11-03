@@ -4,6 +4,6 @@ name: default
 
 steps:
   - name: lint
-    image: nodejs
+    image: node
     commands:
     - yarn lint
