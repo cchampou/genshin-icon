@@ -15,11 +15,12 @@
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
-    "@babel/preset-react": "^7.12.1"
+    "@babel/preset-react": "^7.12.1",
+    "eslint": "^7.12.1"
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "yarn clean && babel src --out-dir=dist"
+    "build": "yarn clean && babel src --out-dir=dist --keep-file-extension"
   },
   "browserslist": [
     "> 0.25%, not dead"

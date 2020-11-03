@@ -17,5 +17,4 @@ export default ({ size, color, ...props }) => (
       </g>
     </g>
   </svg>
-
-)
+);
