@@ -18,7 +18,8 @@
     "@babel/preset-react": "^7.12.1"
   },
   "scripts": {
-    "build": "babel src --out-dir=dist"
+    "clean": "rm -rf dist",
+    "build": "yarn clean && babel src --out-dir=dist"
   },
   "browserslist": [
     "> 0.25%, not dead"
