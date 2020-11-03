@@ -1,0 +1,1 @@
+export { default as Anemo } from './icons/anemo.js';
