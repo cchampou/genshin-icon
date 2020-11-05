@@ -8,3 +8,11 @@ steps:
     commands:
     - yarn
     - yarn lint
+  - name: build & publish
+    image: node
+    commands:
+    - yarn
+    - yarn build
+    when:
+      event: tag
+      branch: master
