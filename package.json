@@ -1,6 +1,6 @@
 {
   "name": "genshin-icon",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "main": "dist/index.js",
   "files": [
     "dist"
