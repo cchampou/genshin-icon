@@ -10,6 +10,9 @@ steps:
     - yarn lint
   - name: build & publish
     image: node
+    environment:
+      NPM_TOKEN:
+        from_secret: NPMJS_TOKEN
     commands:
     - yarn
     - yarn publish
