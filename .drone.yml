@@ -17,6 +17,6 @@ steps:
     - npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
     - yarn
     - yarn publish
-#    when:
-#      event: tag
-#      branch: master
+    when:
+      event: tag
+      branch: master
