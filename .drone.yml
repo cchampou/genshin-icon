@@ -14,6 +14,7 @@ steps:
       NPM_TOKEN:
         from_secret: NPMJS_TOKEN
     commands:
+    - npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
     - yarn
     - yarn publish
 #    when:
