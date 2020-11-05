@@ -12,7 +12,7 @@ steps:
     image: node
     commands:
     - yarn
-    - yarn build
-    when:
-      event: tag
-      branch: master
+    - yarn publish
+#    when:
+#      event: tag
+#      branch: master
