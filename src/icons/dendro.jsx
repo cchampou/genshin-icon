@@ -27,7 +27,7 @@ Dendro.propTypes = {
 };
 
 Dendro.defaultProps = {
-  color: 'purple',
+  color: '#B2EA2A',
   size: 64,
 };
 

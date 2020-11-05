@@ -27,7 +27,7 @@ Hydro.propTypes = {
 };
 
 Hydro.defaultProps = {
-  color: 'purple',
+  color: '#07E4FF',
   size: 64,
 };
 

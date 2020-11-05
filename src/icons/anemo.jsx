@@ -26,7 +26,7 @@ Anemo.propTypes = {
 };
 
 Anemo.defaultProps = {
-  color: 'purple',
+  color: '#A7F6D0',
   size: 64,
 };
 

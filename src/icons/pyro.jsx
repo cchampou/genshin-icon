@@ -26,7 +26,7 @@ Pyro.propTypes = {
 };
 
 Pyro.defaultProps = {
-  color: 'purple',
+  color: '#F8AA75',
   size: 64,
 };
 

@@ -22,7 +22,7 @@ Electro.propTypes = {
 };
 
 Electro.defaultProps = {
-  color: 'purple',
+  color: '#E2B8FF',
   size: 64,
 };
 

@@ -30,7 +30,7 @@ Cryo.propTypes = {
 };
 
 Cryo.defaultProps = {
-  color: 'purple',
+  color: '#F2F2F2',
   size: 64,
 };
 

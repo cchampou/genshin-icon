@@ -24,7 +24,7 @@ Geo.propTypes = {
 };
 
 Geo.defaultProps = {
-  color: 'purple',
+  color: '#F4D862',
   size: 64,
 };
 
